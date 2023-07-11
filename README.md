@@ -18,6 +18,12 @@ Build using `make`.
 
 `6`
 
+To enable more output between steps of execution, add `1 LOG` or `2 LOG` to the beginning of the program.
+
+`$ ./main "2 LOG 1 2 +"
+
+The program prints nothing, but the stack is displayed between steps.
+
 ## Status
 
 Use at your own peril. FaeVM is made for fun and learning.
