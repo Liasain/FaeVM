@@ -1,5 +1,5 @@
-CC := clang
-CFLAGS := -g -Wall -Wextra
+CC := clang-15
+CFLAGS := -std=gnu2x -g -Wall -Wextra
 
 NAME := main
 

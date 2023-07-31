@@ -1,0 +1,5 @@
+#!/bin/bash
+set -e
+clear
+make
+./main ": CR 10 EMIT ; : . 10 /MOD DUP 0 = IF DROP ELSE . THEN 48 + EMIT ; 139 . CR"

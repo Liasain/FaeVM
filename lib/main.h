@@ -6,7 +6,7 @@
 #include <string.h>
 
 #include "types.h"
-#include "vm.h"
+#include "vm2.h"
 
 int main(int, char **);
 
